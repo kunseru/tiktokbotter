@@ -1,6 +1,6 @@
 # TikTok Botter
 
-Discontinued TikTok botting tool. It only contains the ability to collect information about TikTok users, such as their usernames, follower counts and how many people they follow, whether they are verified or not. However, the bot has never been used to violate TikTok's terms of service.
+Discontinued TikTok botter botting tool. It only contains the ability to collect information about TikTok users, such as their usernames, follower counts and how many people they follow, whether they are verified or not. However, the bot has never been used to violate TikTok's terms of service.
 
 
 
