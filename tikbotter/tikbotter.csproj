@@ -97,6 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
+    <None Include="Resources\likes1.png" />
     <None Include="Resources\default.png" />
     <None Include="Resources\likes.png" />
     <None Include="Resources\following.png" />

@@ -33,19 +33,19 @@
             this.usernameTextbox = new MetroFramework.Controls.MetroTextBox();
             this.tabControl = new MetroFramework.Controls.MetroTabControl();
             this.generalPage = new MetroFramework.Controls.MetroTabPage();
-            this.loadedUserUsername = new MetroFramework.Controls.MetroLabel();
-            this.spaceholderDot = new MetroFramework.Controls.MetroLabel();
-            this.loadedUserNickname = new MetroFramework.Controls.MetroLabel();
-            this.spaceholderLines = new MetroFramework.Controls.MetroLabel();
-            this.followerLabel = new MetroFramework.Controls.MetroLabel();
-            this.followingLabel = new MetroFramework.Controls.MetroLabel();
+            this.loadedUserDescription = new MetroFramework.Controls.MetroLabel();
             this.likesLabel = new MetroFramework.Controls.MetroLabel();
             this.likesIcon = new System.Windows.Forms.PictureBox();
+            this.followingLabel = new MetroFramework.Controls.MetroLabel();
             this.followingIcon = new System.Windows.Forms.PictureBox();
+            this.followerLabel = new MetroFramework.Controls.MetroLabel();
             this.followerIcon = new System.Windows.Forms.PictureBox();
             this.verified = new System.Windows.Forms.PictureBox();
+            this.spaceholderLines = new MetroFramework.Controls.MetroLabel();
+            this.loadedUserNickname = new MetroFramework.Controls.MetroLabel();
+            this.spaceholderDot = new MetroFramework.Controls.MetroLabel();
+            this.loadedUserUsername = new MetroFramework.Controls.MetroLabel();
             this.loadedUserImage = new System.Windows.Forms.PictureBox();
-            this.loadedUserDescription = new MetroFramework.Controls.MetroLabel();
             this.botterPage = new MetroFramework.Controls.MetroTabPage();
             this.tabControl.SuspendLayout();
             this.generalPage.SuspendLayout();
@@ -116,71 +116,16 @@
             this.generalPage.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.generalPage.VerticalScrollbarBarColor = true;
             // 
-            // loadedUserUsername
+            // loadedUserDescription
             // 
-            this.loadedUserUsername.AutoSize = true;
-            this.loadedUserUsername.Location = new System.Drawing.Point(105, 22);
-            this.loadedUserUsername.Name = "loadedUserUsername";
-            this.loadedUserUsername.Size = new System.Drawing.Size(53, 19);
-            this.loadedUserUsername.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.loadedUserUsername.TabIndex = 4;
-            this.loadedUserUsername.Text = "kunseru";
-            this.loadedUserUsername.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // spaceholderDot
-            // 
-            this.spaceholderDot.AutoSize = true;
-            this.spaceholderDot.Location = new System.Drawing.Point(164, 22);
-            this.spaceholderDot.Name = "spaceholderDot";
-            this.spaceholderDot.Size = new System.Drawing.Size(17, 19);
-            this.spaceholderDot.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.spaceholderDot.TabIndex = 5;
-            this.spaceholderDot.Text = "●";
-            this.spaceholderDot.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // loadedUserNickname
-            // 
-            this.loadedUserNickname.AutoSize = true;
-            this.loadedUserNickname.Location = new System.Drawing.Point(187, 22);
-            this.loadedUserNickname.Name = "loadedUserNickname";
-            this.loadedUserNickname.Size = new System.Drawing.Size(53, 19);
-            this.loadedUserNickname.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.loadedUserNickname.TabIndex = 6;
-            this.loadedUserNickname.Text = "kunseru";
-            this.loadedUserNickname.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // spaceholderLines
-            // 
-            this.spaceholderLines.AutoSize = true;
-            this.spaceholderLines.Location = new System.Drawing.Point(104, 67);
-            this.spaceholderLines.Name = "spaceholderLines";
-            this.spaceholderLines.Size = new System.Drawing.Size(345, 19);
-            this.spaceholderLines.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.spaceholderLines.TabIndex = 7;
-            this.spaceholderLines.Text = "————————————————————————";
-            this.spaceholderLines.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // followerLabel
-            // 
-            this.followerLabel.AutoSize = true;
-            this.followerLabel.Location = new System.Drawing.Point(148, 92);
-            this.followerLabel.Name = "followerLabel";
-            this.followerLabel.Size = new System.Drawing.Size(16, 19);
-            this.followerLabel.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.followerLabel.TabIndex = 10;
-            this.followerLabel.Text = "0";
-            this.followerLabel.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // followingLabel
-            // 
-            this.followingLabel.AutoSize = true;
-            this.followingLabel.Location = new System.Drawing.Point(246, 92);
-            this.followingLabel.Name = "followingLabel";
-            this.followingLabel.Size = new System.Drawing.Size(16, 19);
-            this.followingLabel.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.followingLabel.TabIndex = 12;
-            this.followingLabel.Text = "0";
-            this.followingLabel.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.loadedUserDescription.AutoSize = true;
+            this.loadedUserDescription.Location = new System.Drawing.Point(105, 48);
+            this.loadedUserDescription.Name = "loadedUserDescription";
+            this.loadedUserDescription.Size = new System.Drawing.Size(184, 19);
+            this.loadedUserDescription.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.loadedUserDescription.TabIndex = 15;
+            this.loadedUserDescription.Text = "live with passion, live musica.ly";
+            this.loadedUserDescription.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // likesLabel
             // 
@@ -196,13 +141,24 @@
             // likesIcon
             // 
             this.likesIcon.BackColor = System.Drawing.Color.Transparent;
-            this.likesIcon.Image = global::tikbotter.Properties.Resources.likes;
+            this.likesIcon.Image = global::tikbotter.Properties.Resources.likes1;
             this.likesIcon.Location = new System.Drawing.Point(310, 89);
             this.likesIcon.Name = "likesIcon";
             this.likesIcon.Size = new System.Drawing.Size(24, 24);
             this.likesIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.likesIcon.TabIndex = 13;
             this.likesIcon.TabStop = false;
+            // 
+            // followingLabel
+            // 
+            this.followingLabel.AutoSize = true;
+            this.followingLabel.Location = new System.Drawing.Point(246, 92);
+            this.followingLabel.Name = "followingLabel";
+            this.followingLabel.Size = new System.Drawing.Size(16, 19);
+            this.followingLabel.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.followingLabel.TabIndex = 12;
+            this.followingLabel.Text = "0";
+            this.followingLabel.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // followingIcon
             // 
@@ -214,6 +170,17 @@
             this.followingIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.followingIcon.TabIndex = 11;
             this.followingIcon.TabStop = false;
+            // 
+            // followerLabel
+            // 
+            this.followerLabel.AutoSize = true;
+            this.followerLabel.Location = new System.Drawing.Point(148, 92);
+            this.followerLabel.Name = "followerLabel";
+            this.followerLabel.Size = new System.Drawing.Size(16, 19);
+            this.followerLabel.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.followerLabel.TabIndex = 10;
+            this.followerLabel.Text = "0";
+            this.followerLabel.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // followerIcon
             // 
@@ -237,6 +204,50 @@
             this.verified.TabIndex = 8;
             this.verified.TabStop = false;
             // 
+            // spaceholderLines
+            // 
+            this.spaceholderLines.AutoSize = true;
+            this.spaceholderLines.Location = new System.Drawing.Point(104, 67);
+            this.spaceholderLines.Name = "spaceholderLines";
+            this.spaceholderLines.Size = new System.Drawing.Size(345, 19);
+            this.spaceholderLines.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.spaceholderLines.TabIndex = 7;
+            this.spaceholderLines.Text = "————————————————————————";
+            this.spaceholderLines.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // loadedUserNickname
+            // 
+            this.loadedUserNickname.AutoSize = true;
+            this.loadedUserNickname.Location = new System.Drawing.Point(187, 22);
+            this.loadedUserNickname.Name = "loadedUserNickname";
+            this.loadedUserNickname.Size = new System.Drawing.Size(53, 19);
+            this.loadedUserNickname.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.loadedUserNickname.TabIndex = 6;
+            this.loadedUserNickname.Text = "kunseru";
+            this.loadedUserNickname.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // spaceholderDot
+            // 
+            this.spaceholderDot.AutoSize = true;
+            this.spaceholderDot.Location = new System.Drawing.Point(164, 22);
+            this.spaceholderDot.Name = "spaceholderDot";
+            this.spaceholderDot.Size = new System.Drawing.Size(17, 19);
+            this.spaceholderDot.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.spaceholderDot.TabIndex = 5;
+            this.spaceholderDot.Text = "●";
+            this.spaceholderDot.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // loadedUserUsername
+            // 
+            this.loadedUserUsername.AutoSize = true;
+            this.loadedUserUsername.Location = new System.Drawing.Point(105, 22);
+            this.loadedUserUsername.Name = "loadedUserUsername";
+            this.loadedUserUsername.Size = new System.Drawing.Size(53, 19);
+            this.loadedUserUsername.Style = MetroFramework.MetroColorStyle.Magenta;
+            this.loadedUserUsername.TabIndex = 4;
+            this.loadedUserUsername.Text = "kunseru";
+            this.loadedUserUsername.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
             // loadedUserImage
             // 
             this.loadedUserImage.BackColor = System.Drawing.Color.Transparent;
@@ -247,17 +258,6 @@
             this.loadedUserImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.loadedUserImage.TabIndex = 3;
             this.loadedUserImage.TabStop = false;
-            // 
-            // loadedUserDescription
-            // 
-            this.loadedUserDescription.AutoSize = true;
-            this.loadedUserDescription.Location = new System.Drawing.Point(105, 48);
-            this.loadedUserDescription.Name = "loadedUserDescription";
-            this.loadedUserDescription.Size = new System.Drawing.Size(184, 19);
-            this.loadedUserDescription.Style = MetroFramework.MetroColorStyle.Magenta;
-            this.loadedUserDescription.TabIndex = 15;
-            this.loadedUserDescription.Text = "live with passion, live musica.ly";
-            this.loadedUserDescription.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // botterPage
             // 

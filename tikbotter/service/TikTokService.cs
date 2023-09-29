@@ -17,7 +17,7 @@ namespace tikbotter.service
                 RequestUri = new Uri("https://tiktok-api6.p.rapidapi.com/user/details?username=" + username),
                 Headers =
                 {
-                    { "X-RapidAPI-Key", "putyourkeyhere" },
+                    { "X-RapidAPI-Key", "2fdb414371msh1a1b6c39fe8804ep115904jsneb0251168130" },
                     { "X-RapidAPI-Host", "tiktok-api6.p.rapidapi.com" },
                 },
             };
