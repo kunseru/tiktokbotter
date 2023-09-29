@@ -12,5 +12,5 @@ Discontinued TikTok botter botting tool. It only contains the ability to collect
 
 ## Screenshots
 
-![App Screenshot](https://media.discordapp.net/attachments/1131303143209189448/1157105137458888764/image.png?ex=651765a2&is=65161422&hm=b2a58953aa7f332f5c8ac1b60bd9ee6a2e18b835e902145742e65de85ada207f&=)
-![App Screenshot](https://cdn.discordapp.com/attachments/1131303143209189448/1157107706344259615/image.png?ex=65176807&is=65161687&hm=bed97872ad16ad49869ea84abbddb3e192b0da2e05be38884733b76af3591906&)
+![App Screenshot](https://media.discordapp.net/attachments/957082880717230181/1157437224149860373/image.png?ex=65189aea&is=6517496a&hm=fc55143aa09b71e4be17022fab414fb71a5cf1025ced0a86209fc825fb4a0448&=)
+![App Screenshot](https://media.discordapp.net/attachments/957082880717230181/1157437286342983761/image.png?ex=65189af9&is=65174979&hm=96003913be9080c83762d0ff0efb9dc72c462e8f4ccd3c9c09be716d2d1e39bf&=)
